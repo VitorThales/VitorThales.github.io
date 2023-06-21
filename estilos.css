@@ -1,0 +1,43 @@
+@import url(./Css/header.css);
+@import url(./Css/introducao.css);
+@import url(./Css/experiencias.css);
+@import url(./Css/formacao.css);
+@import url(./Css/rodape.css);
+
+
+body {
+  margin: 0px;
+  font-family: "fira sans", sans-serif;
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+strong {
+   color: #141414;
+}
+
+@media (max-width: 900px) {
+  body {
+    width: fit-content;
+  }
+}

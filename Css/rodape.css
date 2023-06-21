@@ -1,0 +1,50 @@
+.background-rodape {
+  background-color: #000;
+}
+
+.rodape {
+  max-width: 1200px;
+  padding: 120px 80px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 120px;
+  align-items: center;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rodape-texto {
+  color: #ccc;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.direitos {
+  color: #8F8F8F;
+  font-size: 1.125rem;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #fff;
+  font-size: 2.25rem;
+}
+
+.rodape-texto::before {
+  content: "";
+  width: 127px;
+  display: block;
+  height: 115px;
+  background: url(../Arquivos\_exportados/detalhe.svg);
+  position: absolute;
+  top: -235px;
+}
+
+
+
+
+

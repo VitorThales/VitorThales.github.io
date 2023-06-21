@@ -1,0 +1,41 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+}
+
+.hamburguer {
+  display: none;
+}
+
+.hamburguer-icon {
+  display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.menu-itens {
+  display: flex;
+  gap: 10px;
+}
+
+.menu-itens a {
+  padding: 10px 5px;
+  text-decoration: none;
+  color: #141414;
+  padding: 10px 20px;
+  display: block;
+}
+
+
+
+
+
